@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="TaxPayerTestNG.positiveTest">
+        <methods>
+          <include name="login_new_pw"/>
+          <include name="quit_browser"/>
+          <include name="tab_change_password"/>
+          <include name="launch_browser"/>
+          <include name="regis_success"/>
+          <include name="rememberMe_email"/>
+          <include name="change_pw"/>
+          <include name="tab_user_info"/>
+          <include name="screenshot"/>
+          <include name="rememberMe_pw"/>
+          <include name="tab_data_NPWPD"/>
+          <include name="fill_out_user_info_bu"/>
+          <include name="fill_out_user_info_individu"/>
+        </methods>
+      </class> <!-- TaxPayerTestNG.positiveTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

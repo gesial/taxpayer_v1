@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="TaxPayerTestNG.negativeTest_landing">
+        <methods>
+          <include name="nop1_empty"/>
+          <include name="init_state"/>
+          <include name="quit_browser"/>
+          <include name="nop6_empty"/>
+          <include name="nop4_empty"/>
+          <include name="nop1_1"/>
+          <include name="nop1_w_space"/>
+          <include name="nop5_empty"/>
+          <include name="launch_browser"/>
+          <include name="nop3_empty"/>
+          <include name="screenshot"/>
+          <include name="nop2_empty"/>
+          <include name="nop7_empty"/>
+        </methods>
+      </class> <!-- TaxPayerTestNG.negativeTest_landing -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
